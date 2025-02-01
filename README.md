@@ -76,6 +76,15 @@ If a potential vulnerability is detected, output looks like:
 
 **Use this tool only for ethical hacking and authorized penetration testing.** Unauthorized use is illegal.
 
+## Notes:
+```
+This script is for educational and authorized testing purposes only.
+
+Always ensure you have explicit permission to test the target systems.
+
+The script may need further customization depending on the target environment and WAF configurations.
+```
+
 ## License
 
 This project is licensed under the MIT License.
