@@ -1,4 +1,4 @@
-# Remote Command Execution RCE
+# Remote Command Execution Scanner
 
 ## Overview
 
