@@ -30,8 +30,8 @@ Ensure you have Go installed and set up on your system.
 
 ```sh
 # Clone the repository
-git clone https://github.com/yourusername/rce-scanner.git
-cd rce-scanner
+git clone https://github.com/vijay922/RCE-Scanner.git
+cd RCE-Scanner
 
 # Build the binary
 go build -o rce-scanner
@@ -81,6 +81,3 @@ If a potential vulnerability is detected, output looks like:
 This project is licensed under the MIT License.
 
 ---
-
-Feel free to modify this before posting it on GitHub!
-
