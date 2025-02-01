@@ -66,9 +66,9 @@ The scanner includes payloads such as:
 If a potential vulnerability is detected, output looks like:
 
 ```
-[+] Potential RCE Vulnerability at http://example.com/api/v1/user?name=test%3Bid
-    Payload: ;/usr/bin/id
-    User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36
+[+] Potential RCE Vulnerability at http://example.com/api/v1/user?name=test%26id%26
+    Payload: %26id%26
+    User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)
     Match: uid=1000(user)
 ```
 
